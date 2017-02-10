@@ -6,6 +6,3 @@ RUN yum -y install \
     http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
     centos-release-scl.noarch
 RUN yum -y install tfm-rubygem-hammer_cli_katello.noarch
-
-ENTRYPOINT ["hammer"]
-CMD ["--help"]
