@@ -8,5 +8,7 @@ RUN yum -y install \
 RUN yum -y install \
     tfm-rubygem-hammer_cli_katello.noarch \
     tfm-rubygem-hammer_cli_foreman_remote_execution.noarch \
+    tfm-rubygem-hammer_cli_foreman \
+    tfm-rubygem-hammer_cli \
     jq \
     && yum clean all
